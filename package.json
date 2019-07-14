@@ -16,13 +16,13 @@
   },
   "license": "MIT",
   "files": [
-    "lib/js",
+    "src",
     "lib/ios",
     "lib/android/src",
     "lib/android/build.gradle"
   ],
-  "main": "lib/js",
-  "types":"lib/js/index.d.ts",
+  "main": "src/index.ts",
+  "types":"src/types.ts",
   "scripts": {
     "build": "tsc --build",
     "start": "node node_modules/react-native/local-cli/cli.js start",
